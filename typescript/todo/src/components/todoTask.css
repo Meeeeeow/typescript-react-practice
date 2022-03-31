@@ -1,0 +1,36 @@
+.todo-info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container{
+    width:700px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container .todo-name{
+    padding:20px 70px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-right:1px solid green;
+    background-color: green;
+}
+.container .time{
+    padding:20px 50px ;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-right:1px solid green;
+    background-color:saddlebrown;
+}
+
+.container button{
+    padding:20px 74px ;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color:rgb(236, 9, 9);
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
